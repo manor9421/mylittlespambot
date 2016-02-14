@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+	font: 18px verdana, sans-serif;
+}
+
+body{
+	background:#F7F7F7;
+}
+
+div#maindiv{
+	margin:20px auto;
+	width:1330px;
+}
+
+div#menu{
+	margin-bottom:30px;
+	padding: 10px 25px;
+	background:#E1E1D81;
+	border: 3px solid #DCDCDC;
+	border-radius: 10px;
+}
+
+div#menu div{
+	text-align:center;
+	margin: 0;
+	padding: 15px 5px;
+	min-width: 120px;
+	display: inline-block;
+	background-color: #E4E4E4;
+	border: 3px solid #2F241A;
+	border-radius: 6px;
+	color: #4A4A4A;
+}
+div#menu div:hover{
+	background-color: #4A4A4A;
+	
+	color: #E4E4E4;
+}
+
+form{
+	margin:15px;
+	width:440px;
+	border: 3px solid #2F241A;
+	border-radius: 6px;
+	padding: 6px;
+}
+input{
+	margin:3px;
+	padding:3px;
+	width:auto;	
+}
+
+input#girlPW{
+	margin-left:105px;
+}
+
+input#girlLogin{
+	margin-left:128px;
+}
+
+div#maindiv a.toDelete{
+	color:#C4C4C4;
+	padding:4px;
+	border: 2px solid #2F241A;
+	border-radius: 4px;
+	text-decoration:none;
+	background-color:#565656;
+}
+div#maindiv a.toDelete:hover{
+	//color:#565656;
+	background-color:#E01A1A;
+}
+
+div#delete{
+	margin:5px;
+}
+
+form#forSend{
+	width:800px;
+}
+
+form input#mainText{
+	height:400px;
+	width:670px;
+}
+
+div.blacklist{
+	//border: 2px solid #2F241A;
+	//border-radius: 4px;
+}
+
+div.blacklist form{
+	border:none;
+	width:1200px;
+	
+}
+
+div#blackInfo div.info{
+	border: 2px solid #2F241A;
+	border-radius: 4px;
+	margin:5px;
+}
+
+div#blackInfo div.girl{
+	background-color:#DEDEDE;
+	padding:8px;
+	//color:#FFFFFF;
+	font-size:30px;
+}
+.invisible{
+	display:none;
+}
+
+.button:hover{
+	color:#F3F3F3;
+	background-color:#2C2C2C;
+	cursor:pointer;
+}
+
+table{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+table th{
+	text-align: left; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 3px solid black; /* Граница вокруг ячеек */
+}
+table td{
+	width:266px;
+	padding: 5px;
+    border: 3px solid black;
+}
+
+form#login{
+	margin:200px auto;
+}
+
+a#savedb{
+	text-decoration:none;
+	width:200px;
+}
+
+a#savedb div{
+	float:left;
+	border-radius: 4px;
+	margin: 10px;
+	padding:5px;
+	width:200px;
+	background-color: #212121;
+	color: #E1E1E1;
+}
+
+a#savedb div:hover{
+	background-color:green;
+}
+table#sended th{
+	width:350px;
+}
